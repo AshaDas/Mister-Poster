@@ -1,29 +1,25 @@
-# Mister Poster
+# Visa Scanner
 ![Preview](./visual_designs/logo_small.png)
 
-#### A very basic single feed social media application. Built on top of React-Native and Firebase real-time database with persistent local storage for user's device.
+#### A minimal visa scanner application built that will scan the visa and translate the language in English to help users.
 
 Download the APK : [Installable APK](https://github.com/shoumma/Mister-Poster/raw/master/apk-releases/mister-poster.apk)
 
 ![Preview](./visual_designs/show.png)
 
 ## Built With
- - [React Native](https://facebook.github.io/react-native/)
- - [Redux](https://github.com/reactjs/redux)
- - [Redux Storage](https://github.com/michaelcontento/redux-storage) (with [async-storage engine](https://github.com/michaelcontento/redux-storage-engine-reactNativeAsyncStorage) for react native for application persistence)
+ - [Swift 4](https://swift.org/blog/swift-4-0-released/)
+ - [Objective C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
  - [Firebase](https://firebase.google.com/)
 
-This is my second application using react native. I'm really enjoying the technology. My main objective of this project was to learn how to integrate react native applications with Firebase. Firebase isn't properly supported yet for react native (third party logins like google, facebook, twitter still doesn't work due to webview requirement), but it have enough support for creating amazing stand alone applications. The app is Android only. I'm on a Ubuntu machine and apple doesn't allow me to create apps for them.
-
-I would really appricate any suggestions, feedback, PRs and Issues.
-
+### Documentations
 
 ## Walkthrough
 ### Sign In / Sign Up View
 
 ![Preview](./visual_designs/signIn.gif)
 
-The Sign-In/Sign-Up view is pretty straight forward. Component's own states (not the redux state) are maintained to display forms. I haved used the [LayoutAnimation](https://facebook.github.io/react-native/docs/layoutanimation.html) and [Animatable](https://github.com/oblador/react-native-animatable) almost everywhere to make things more interactive and interesting. The trick was to animate components while mounting and unmounting. I didn't use any form validation since that part is amazingly done by Firebase. I displayed the error message to the user that catches by the promises. The back-end stuffs of sign in / sign up / reset password, all are done by Firebase user authentication APIs.
+The Sign-In/Sign-Up view is pretty straight forward. Component's own states are maintained to display forms. We have use swift-4 via Xcode for designing. 
 
 
 ### Home View
@@ -48,46 +44,35 @@ The "Universal Timeline" component is a scroll view with "pull to refresh" funct
 ### Prerequisites
 To create an own copy of this application, you have some prerequisites. They are -
 
- - [NodeJS](https://nodejs.org/en/) installed on your system.
- - [React Native](https://facebook.github.io/react-native/) installed on your system.
- - Have the [Android SDK](https://developer.android.com/studio/index.html) and paths set properly. 
- - An android emulator or real device to run the app.
+ - At first you need an Apple Machine like [macos mojave](https://cleanmymac.macpaw.com/19?campaign=cmmx_search_mojave_lowcpc_en&ci=804997884&adgroupid=59549465256&adpos=1t1&ck=macos%20mojave&targetid=kwd-520276011510&match=p&gnetwork=g&creative=338314487886&placement=&placecat=&accname=cmm&gclid=CjwKCAjw44jrBRAHEiwAZ9igKInZNZVQdjpTSIcqlKnd0LC5kFSyFDtI40RVtKEEjr2YPcRP7_pj2RoCUwEQAvD_BwE).
+ - [Xcode] installed on your system.
+ - [Swift](https://swift.org/blog/swift-4-0-released/) installed on your system. 
+ - [Git](https://github.com) 
  - A google account for having [Firebase Web](https://firebase.google.com/docs/web/setup) configuration.
 
 ### Make own copy
 First clone the repository using:
 
-    git clone https://github.com/shoumma/Mister-Poster.git
+    git clone https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU
 
-Then install the dependencies using:
+Then install the necessary dependencies.
 
-    npm install
-
-At this point you need to have the configurations for a Firebase App. Just go to [Firebase Console](https://firebase.google.com/docs/web/setup) and follow the instructions. Then open the file named `firebase.js` from the `src` folder. Add the Firebase configurations to the file. The file looks something like this:
-
-    // import and configure firebase
-    import * as firebase from 'firebase';
-    
-    const firebaseConfig = {
-      apiKey: [YOUR API KEY],
-      authDomain: [YOUR AUTH DOMAIN],
-      databaseURL: [YOUR DATABASE URL],
-      storageBucket: [STORAGE BUCKET],
-    }
-    export const firebaseApp = firebase.initializeApp(firebaseConfig)
-
-Then run the React Native server using:
-
-    react-native start
+At this point you need to have the configurations for a Firebase App. Just go to [Firebase Console](https://firebase.google.com/docs/web/setup) and follow the instructions.
+Then run the Xcode server.
 
 Open your emulator and wait until it completely boot up. Then run the following command to run the app on the emulator.
 
-    react-native run-android
 Now, you have your own copy of this application!
 
+## Path for Future Work
+* Add search functionality
+* Add unit tests for both backend and frontend
+* Ability to change the name and logo of the site from admin panel.
+* Make the installation process more interactive
+* Add multiple theme support.
 
 ## License
-[MIT License](https://github.com/shoumma/Mister-Poster/blob/master/LICENSE). Anything you would like to do! 😀
+[MIT License](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/LICENSE). Do whatever you would like to do! 😀
 
 
 ## Credits
@@ -107,4 +92,4 @@ I barely create the application. I just created the front end shell and done som
  - [Lodash](https://lodash.com/)
  
 
-Made with ♥ by [Provash Shoumma](https://twitter.com/pshoumma)
+Made by [Shafiqul Islam](https://github.com/ilmoislamnsu) and [Asha Das](https://github.com/AshaDas)
