@@ -26,7 +26,7 @@ The Sign-In/Sign-Up view is pretty straight forward. Component's own states are 
 
 ![Preview](./visual_designs/post.gif)
 
-After a successful sign in or sign up, the user will be directed to the Home view. These view are created using the [navigator](https://facebook.github.io/react-native/docs/navigator.html) from react-native and maintained by redux state. Based on user's sign-in status, the user will be displayed the Home View or the Sign In / Sign Up View.
+After a successful sign in or sign up, the user will be directed to the Home view. These view are created using the Xcode(https://developer.apple.com/xcode/) maintained by Swift state. Based on user's sign-in status, the user will be displayed the Home View or the Sign In / Sign Up View.
 
 The Home View is consists of four tabs -
 
@@ -45,9 +45,9 @@ The "Universal Timeline" component is a scroll view with "pull to refresh" funct
 To create an own copy of this application, you have some prerequisites. They are -
 
  - At first you need an Apple Machine like [macos mojave](https://cleanmymac.macpaw.com/19?campaign=cmmx_search_mojave_lowcpc_en&ci=804997884&adgroupid=59549465256&adpos=1t1&ck=macos%20mojave&targetid=kwd-520276011510&match=p&gnetwork=g&creative=338314487886&placement=&placecat=&accname=cmm&gclid=CjwKCAjw44jrBRAHEiwAZ9igKInZNZVQdjpTSIcqlKnd0LC5kFSyFDtI40RVtKEEjr2YPcRP7_pj2RoCUwEQAvD_BwE).
- - [Xcode] installed on your system.
- - [Swift](https://swift.org/blog/swift-4-0-released/) installed on your system. 
- - [Git](https://github.com) 
+ - [Xcode](https://developer.apple.com/xcode/) installed on your system.
+ - [Swift-4](https://swift.org/blog/swift-4-0-released/) installed on your system. 
+ - [Git Desktop](https://desktop.github.com) installed on your system and a Git(https://github.com) account.
  - A google account for having [Firebase Web](https://firebase.google.com/docs/web/setup) configuration.
 
 ### Make own copy
