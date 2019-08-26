@@ -3,14 +3,22 @@
 
 #### A minimal visa scanner application built that will scan the visa and translate the language in English to help users.
 
-Download the APK : [Installable APK](https://github.com/shoumma/Mister-Poster/raw/master/apk-releases/mister-poster.apk)
+Download the Xcode Project From : [Xcode Project](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU)
 
 ![Preview](./visual_designs/show.png)
 
 ## Built With
+[![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
+)](https://developer.apple.com/iphone/index.action)
+[![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat
+)](https://developer.apple.com/swift)
+[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
+)](http://mit-license.org)
+[![Firestore](https://img.shields.io/badge/Database-Firestore-yellow)](https://firebase.google.com)
+
  - [Swift 4](https://swift.org/blog/swift-4-0-released/)
  - [Objective C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
- - [Firebase](https://firebase.google.com/)
+ - [Firestore](https://firebase.google.com/)
 
 ### Documentations
 
@@ -19,7 +27,7 @@ Download the APK : [Installable APK](https://github.com/shoumma/Mister-Poster/ra
 
 ![Preview](./visual_designs/signIn.gif)
 
-The Sign-In/Sign-Up view is pretty straight forward. Component's own states are maintained to display forms. We have use swift-4 via Xcode for designing. 
+The Sign-In/Sign-Up view is pretty straight forward. Component's own states are maintained to display forms. Using google sign in an user can sign in to the app.
 
 
 ### Home View
