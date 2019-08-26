@@ -60,7 +60,7 @@ Then install the necessary dependencies.
 At this point you need to have the configurations for a Firebase App. Just go to [Firebase Console](https://firebase.google.com/docs/web/setup) and follow the instructions.
 Then run the Xcode server.
 
-Open your emulator and wait until it completely boot up. Then run the following command to run the app on the emulator.
+Open your emulator and wait until it completely boot up. Then run the app from your local machine.
 
 Now, you have your own copy of this application!
 
@@ -93,3 +93,4 @@ I barely create the application. I just created the front end shell and done som
  
 
 Made by [Shafiqul Islam](https://github.com/ilmoislamnsu) and [Asha Das](https://github.com/AshaDas)
+Ownwd by [Shaikh Shawon Arefin Shimon]
