@@ -1,5 +1,5 @@
-# Visa Scanner
 ![Preview](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Project%20Code/Assets/app-icon/ios-marketing.png)
+# Visa Scanner
 
 #### A minimal visa scanner application built that will scan the visa and translate the language in English to help users.
 
