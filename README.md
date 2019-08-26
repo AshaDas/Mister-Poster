@@ -1,6 +1,7 @@
+<p align="center">
 ![Preview](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Project%20Code/Assets/app-icon/ios-marketing.png)
 # Visa Scanner
-
+</p>
 #### A minimal visa scanner application built that will scan the visa and translate the language in English to help users.
 
 Download the APK : [Installable APK](https://github.com/shoumma/Mister-Poster/raw/master/apk-releases/mister-poster.apk)
@@ -47,7 +48,7 @@ To create an own copy of this application, you have some prerequisites. They are
  - At first you need an Apple Machine like [macos mojave](https://cleanmymac.macpaw.com/19?campaign=cmmx_search_mojave_lowcpc_en&ci=804997884&adgroupid=59549465256&adpos=1t1&ck=macos%20mojave&targetid=kwd-520276011510&match=p&gnetwork=g&creative=338314487886&placement=&placecat=&accname=cmm&gclid=CjwKCAjw44jrBRAHEiwAZ9igKInZNZVQdjpTSIcqlKnd0LC5kFSyFDtI40RVtKEEjr2YPcRP7_pj2RoCUwEQAvD_BwE).
  - [Xcode](https://developer.apple.com/xcode/) installed on your system.
  - [Swift-4](https://swift.org/blog/swift-4-0-released/) installed on your system. 
- - [Git Desktop](https://desktop.github.com) installed on your system and a Git(https://github.com) account.
+ - [Github Desktop](https://desktop.github.com) installed on your system and a Git(https://github.com) account.
  - A google account for having [Firebase Web](https://firebase.google.com/docs/web/setup) configuration.
 
 ### Make own copy
