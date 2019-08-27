@@ -88,19 +88,13 @@ Now, you have your own copy of this application!
 ## Credits
 I barely create the application. I just created the front end shell and done some integration with firebase. All the credits goes to all library creators and contributors to those libraries. I'm really grateful to all of them.
 
- - [React](https://facebook.github.io/react/)
- - [React Native](https://facebook.github.io/react-native/)
- - [React Native Animatable](https://github.com/oblador/react-native-animatable)
- - [React Native Scrollable Tab View](https://github.com/skv-headless/react-native-scrollable-tab-view)
- - [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
- - [Redux](https://github.c - [React Redux](https://github.com/reactjs/react-redux)
-om/reactjs/redux)
- - [Redux Storage](https://github.com/michaelcontento/redux-storage)
- - [Redux Storage Engine - React Native Async Storage](https://github.com/michaelcontento/redux-storage-engine-reactNativeAsyncStorage)
+ - [macos mojave](https://cleanmymac.macpaw.com/19?campaign=cmmx_search_mojave_lowcpc_en&ci=804997884&adgroupid=59549465256&adpos=1t1&ck=macos%20mojave&targetid=kwd-520276011510&match=p&gnetwork=g&creative=338314487886&placement=&placecat=&accname=cmm&gclid=CjwKCAjw44jrBRAHEiwAZ9igKInZNZVQdjpTSIcqlKnd0LC5kFSyFDtI40RVtKEEjr2YPcRP7_pj2RoCUwEQAvD_BwE).
+ - [Xcode](https://developer.apple.com/xcode/)
+ - [Swift-4](https://swift.org/blog/swift-4-0-released/) 
+ - [Github Desktop](https://desktop.github.com)Git(https://github.com)
  - [Firebase](https://firebase.google.com/)
- - [Moment JS](http://momentjs.com/)
- - [Lodash](https://lodash.com/)
  
 
 Made by [Shafiqul Islam](https://github.com/ilmoislamnsu) and [Asha Das](https://github.com/AshaDas)
-Ownwd by [Shaikh Shawon Arefin Shimon]
+
+Owned by [Shaikh Shawon Arefin Shimon]
