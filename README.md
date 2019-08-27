@@ -80,7 +80,9 @@ Now, you have your own copy of this application!
 * Add multiple theme support.
 
 ## License
-[MIT License](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/LICENSE). Do whatever you would like to do! 😀
+[MIT License](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/LICENSE).
+
+
 
 
 ## Credits
@@ -91,8 +93,8 @@ I barely create the application. I just created the front end shell and done som
  - [React Native Animatable](https://github.com/oblador/react-native-animatable)
  - [React Native Scrollable Tab View](https://github.com/skv-headless/react-native-scrollable-tab-view)
  - [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
- - [Redux](https://github.com/reactjs/redux)
- - [React Redux](https://github.com/reactjs/react-redux)
+ - [Redux](https://github.c - [React Redux](https://github.com/reactjs/react-redux)
+om/reactjs/redux)
  - [Redux Storage](https://github.com/michaelcontento/redux-storage)
  - [Redux Storage Engine - React Native Async Storage](https://github.com/michaelcontento/redux-storage-engine-reactNativeAsyncStorage)
  - [Firebase](https://firebase.google.com/)
