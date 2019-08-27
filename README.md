@@ -21,6 +21,8 @@ Download the Xcode Project From : [Xcode Project](https://github.com/ilmoislamns
  - [Firestore](https://firebase.google.com/)
 
 ### Documentations
+ - [Project Proposal](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Documentation/Project%20Proposal.docx)
+ - [UML Diagram](https://github.com/ilmoislamnsu/SU19CSE299S02G01NSU/blob/master/Documentation/UML%20Visa.png)
 
 ## Walkthrough
 ### Sign In / Sign Up View
